@@ -16,6 +16,7 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.rapidoid', name: 'rapidoid-quick', version: '5.5.5'
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.2'
 }
 
 mainClassName = "proba1.Main"
